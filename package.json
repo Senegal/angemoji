@@ -1,0 +1,64 @@
+{
+  "_from": "ng-emoji-picker",
+  "_id": "ng-emoji-picker@1.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-7TS095c1JYFN9HTrqEEMzyg0c4omt2xLJjPIQ2UlWIXb2Wcwz1IXLGVf/izv78IRlOgAiHoUGzQ5cUbn6SZmSg==",
+  "_location": "/ng-emoji-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ng-emoji-picker",
+    "name": "ng-emoji-picker",
+    "escapedName": "ng-emoji-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng-emoji-picker/-/ng-emoji-picker-1.2.2.tgz",
+  "_shasum": "d9c33811862abbc0adf7ea66f61f3c5f29104df3",
+  "_spec": "ng-emoji-picker",
+  "_where": "/Users/Senegal/Sites/masquerade/client",
+  "bugs": {
+    "url": "https://github.com/lbertenasco/ng-emoji-picker/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@angular/common": "^5.x.x",
+    "@angular/core": "^5.x.x",
+    "@angular/forms": "^5.x.x",
+    "rxjs": "^5.4.1"
+  },
+  "deprecated": false,
+  "description": "Angular 2 Emoji Picker",
+  "devDependencies": {
+    "@angular/compiler": "^5.x.x",
+    "@angular/compiler-cli": "^5.x.x",
+    "typescript": "^2.3.4"
+  },
+  "homepage": "https://github.com/lbertenasco/ng-emoji-picker#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2",
+    "emoji",
+    "picker",
+    "angular2 emoji picker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ng-emoji-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbertenasco/ng-emoji-picker.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist/ && ngc build -p ./tsconfig.json",
+    "release": "npm run build && cp package.json dist/ && cd dist/ && npm publish && cd .."
+  },
+  "version": "1.2.2"
+}
